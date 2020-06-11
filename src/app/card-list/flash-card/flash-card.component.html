@@ -1,0 +1,12 @@
+<div class="card" (click)="onSelectTitle()">
+  <div class="card-body">
+    <div class="text-center"> 
+    </div>
+    <div class="card-title">
+      {{ card.name | uppercase }}
+    </div>
+    <div class="card-text" *ngIf="selectedTitle">
+      {{ card.description }}
+    </div>
+  </div>
+</div>

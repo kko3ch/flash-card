@@ -1,0 +1,44 @@
+.card {
+  position: relative;
+  width: 300px;
+  height: auto;
+  padding: 1em 1.5em;
+  margin: 2em auto;
+  color: #fff;
+  background: #97C02F;
+  cursor: pointer;
+}
+.card:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: green lightslategrey;
+}
+.text-center{
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  background-color: black;
+  position: absolute;
+  top: 2px;
+  left: 50%;
+}
+.card-title{
+  color: gray;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: black;
+}
+.card-title:hover{
+  color: khaki;
+}
+.card-text{
+  font-style: italic;
+  color: crimson;
+  font-weight: lighter;
+}
