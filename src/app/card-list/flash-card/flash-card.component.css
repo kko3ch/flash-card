@@ -1,6 +1,6 @@
 .card {
   position: relative;
-  width: 300px;
+  width: 250px;
   height: auto;
   padding: 1em 1.5em;
   margin: 2em auto;
@@ -15,7 +15,8 @@
   right: 0;
   border-width: 0 16px 16px 0;
   border-style: solid;
-  border-color: green lightslategrey;
+  border-color: green gray;
+  opacity: 0.2;
 }
 .text-center{
   height: 8px;
